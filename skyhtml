@@ -1,9 +1,11 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cool Background</title>
   <style>
+    /* Body styling with an animated gradient background */
     body {
       margin: 0;
       height: 100vh;
@@ -18,17 +20,20 @@
       text-align: center;
     }
 
+    /* Keyframes for the gradient animation */
     @keyframes gradientAnimation {
       0% { background-position: 0% 50%; }
       50% { background-position: 100% 50%; }
       100% { background-position: 0% 50%; }
     }
 
+    /* Header styling */
     h1 {
       font-size: 3em;
       text-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
     }
 
+    /* Paragraph styling */
     p {
       font-size: 1.2em;
       max-width: 600px;
@@ -39,7 +44,7 @@
 <body>
   <div>
     <h1>Welcome to My Cool Website</h1>
-    <p>Enjoy this vibrant, animated background that brings energy and style to your web experience!</p>
+    <p>Enjoy this vibrant, animated background on GitHub Pages!</p>
   </div>
 </body>
 </html>
